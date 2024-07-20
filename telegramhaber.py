@@ -102,7 +102,7 @@ class BotThread(QThread):
 
         if new_articles_queue:
             article = random.choice(new_articles_queue)
-            bot_token = '7398641721:AAGcteTGyX-qdn9qSTQrNxSPDFf8N1Cx4dg'
+            bot_token = 'BOT TOKEN GİR'
             bot = Bot(token=bot_token)
 
             try:
